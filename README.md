@@ -17,3 +17,4 @@ Based on the Raptorize from ZURB's Playground (see link). An easy way to deliver
 </script>
 ```
 
+Link: http://www.zurb.com/playground/jquery-raptorize
