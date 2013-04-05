@@ -5,7 +5,7 @@
  * Free to use under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
 */
-var root = 'https://raw.github.com/davesierra/raptorize/master/'
+var rootVar = 'https://raw.github.com/davesierra/raptorize/master/';
 
 (function($) {
 
@@ -30,8 +30,8 @@ var root = 'https://raw.github.com/davesierra/raptorize/master/'
 			}
 			
 			//Raptor Vars
-			var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="'+root+'raptor.png" />'
-			var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="raptor-sound.mp3" /><source src="'+root+'raptor-sound.ogg" /></audio>';	
+			var raptorImageMarkup = '<img id="elRaptor" style="display: none" src="'+rootVar+'raptor.png" />'
+			var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="'+rootVar+'raptor-sound.mp3" /><source src="'+rootVar+'raptor-sound.ogg" /></audio>';	
 			var locked = false;
 			
 			//Append Raptor and Style
